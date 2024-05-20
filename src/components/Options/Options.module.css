@@ -1,0 +1,8 @@
+.options {
+  display: flex;
+  gap: 4px;
+  justify-content: flex-start;
+}
+.button {
+  border: 2px solid #949494;
+}
