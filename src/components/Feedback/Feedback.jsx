@@ -7,7 +7,7 @@ const Feedback = ({ feedbackCounts, totalFeedback, positiveFeedback }) => {
       <p>Neutral: {feedbackCounts.neutral}</p>
       <p>Bad: {feedbackCounts.bad}</p>
       <p>Total: {totalFeedback}</p>
-      <p>Positive: {isNaN(positiveFeedback) ? 0 : positiveFeedback}%</p>
+      <p>Positive: {positiveFeedback}%</p>
     </div>
   );
 };
